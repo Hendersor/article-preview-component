@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Manrope', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.article-container{
+    width: 85%;
+    height: 450px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 318.7px;
+    min-width: 318.7px;
+}
+
+.article-container .img-container{
+    width: 100%;
+    height: 36%;
+     background-image: url("https://res.cloudinary.com/dwdz4mn27/image/upload/v1638383747/article-preview-component-master/images/drawers_djd1se.jpg");   
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+     
+}
+
+
+
+.article-container .info-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 27px;
+    padding-top: 25px;
+    background-color: white ;
+}
+
+.article-container .info-container h1{
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}
+
+.article-container .info-container p{
+    font-size: 1.3rem;
+    color: hsl(217, 19%, 35%);
+    line-height: 20px;
+    padding-right: 6px;
+}
+
+
+.article-container .user-container{
+    width: 100%;
+    height: calc(50% - 36%);
+    display: flex;
+    padding-right: 27px;
+    padding-left: 30px;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+
+.article-container .user-container .image-container{
+    height: 37px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.user-container .name-user p{
+    color: hsl(212, 23%, 69%);
+    font-weight: 500;
+    margin-top: 3px;
+    font-size: 1.3rem;
+}
+
+.user-container .name-user{
+    margin-left: 15px;
+}
+
+.user-container h1{
+    font-weight: 700;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.share-container{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+
+
+.share-container img{
+    width: 15px;
+    height: 15px;    
+}
+
+.share-container img:hover{
+    cursor: pointer;
+}
