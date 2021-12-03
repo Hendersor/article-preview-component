@@ -66,11 +66,12 @@ body{
 .article-container .info-container h1{
     font-size: 1.6rem;
     margin-bottom: 16px;
+    color: hsl(217, 19%, 35%);
 }
 
 .article-container .info-container p{
     font-size: 1.3rem;
-    color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 51%);
     line-height: 20px;
     padding-right: 6px;
 }
@@ -125,7 +126,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
+    margin-left: 78px;
     border-radius: 50%;
     background-color: hsl(210, 46%, 95%);
 }
@@ -146,3 +147,99 @@ body{
 .article-container .mobile-container{
     height: 100%
  }
+
+
+
+.social-media{
+    visibility: hidden;
+    display: flex;
+    position: absolute;
+    width: 318px;
+    height: 60px;
+    background-color: hsl(217, 19%, 35%);
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.social-media p{
+    color: hsl(214, 17%, 51%);
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+}
+
+.social-media .icon-s{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.social-media span img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.share-container-button .icon-close{
+    cursor: pointer;
+}
+
+.share-container-button{
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+.animation{
+    transform: translate(0, -62px);
+    transition: transform 300ms;
+    animation-name: enter;
+    animation-duration: 500ms;
+}
+
+@keyframes enter {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.animationRemove{
+    transition: translate(0, 10px);
+    transition: transform 500ms;  
+    animation: opacity 0s ease-in 500ms;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }   
+
+    100%{
+        opacity: 0;
+    }
+}
+
