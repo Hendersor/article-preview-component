@@ -129,6 +129,7 @@ body{
     margin-left: 78px;
     border-radius: 50%;
     background-color: hsl(210, 46%, 95%);
+    cursor: pointer;
 }
 
 
@@ -184,9 +185,7 @@ body{
     cursor: pointer;
 }
 
-.share-container-button .icon-close{
-    cursor: pointer;
-}
+
 
 .share-container-button{
     width: 33px;
@@ -197,6 +196,7 @@ body{
     margin-left: 30px;
     border-radius: 50%;
     background-color: hsl(210, 46%, 95%);
+    cursor: pointer;
 }
 
 
@@ -225,8 +225,9 @@ body{
 .animationRemove{
     transition: translate(0, 10px);
     transition: transform 500ms;  
-    animation: opacity 0s ease-in 500ms;
-    animation-fill-mode: forwards; 
+    animation-name: opacity;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
 }
 
 @keyframes opacity {
