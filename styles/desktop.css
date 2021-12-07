@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.article-container{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+
+.article-container .img-container{
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 12px;
+}
+
+.article-container .img-container img{
+
+    border-top-right-radius: 0;
+}
+
+.article-container .mobile-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-evenly;
+    height: 113%;
+}
+
+
+.article-container .info-container{
+    height: 80%;
+    padding: 0;
+    border-top-right-radius: 12px;
+    
+}
+
+.article-container .info-container h1{
+    font-size: 2.7rem;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.article-container .info-container p{
+    font-size: 1.9rem;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.article-container .user-container{
+    height: 50%;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.user-container .image-container img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 0px;
+}
+
+.user-container .name-user h1{
+    font-size: 1.6rem;
+}
+
+.user-container .name-user p{
+    font-size: 1.4rem;
+}
+
+
+.user-container .share-container{
+    margin-left: 300px;
+    width: 45px;
+    height: 45px;
+}
+
+.user-container .share-container img{
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.social-media .share-container-button{
+    display: none;
+}
+
+.social-media{
+    border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        width: 220px;
+        height: 100px;
+        right: 160px;
+        bottom: 20%;
+        position: relative;
+        left: 68%;
+}
+
+.figure{
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    position: absolute;
+    bottom: -10%;
+    left: 46%;
+}
